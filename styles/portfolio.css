@@ -61,7 +61,7 @@ nav ul {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    background-color: #ecb58d43;
+    background-color: #ecb48d2b;
 }
 
 .banner-greetings {
@@ -107,7 +107,7 @@ main {
 }
 
 .secondary-bg {
-    background-color: #ecb48d3e;
+    background-color: #ecb48d0f;
 
 
 }
@@ -129,8 +129,38 @@ main {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+
 }
 
 .item-description {
     font-weight: 600;
+}
+
+
+/* MY Skills */
+.skills {
+
+    border-radius: 10px;
+
+    margin-top: 130px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* skills sections style */
+.skills-container {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.shill {
+
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
